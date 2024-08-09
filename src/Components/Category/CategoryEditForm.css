@@ -1,0 +1,50 @@
+/* src/components/Category/CategoryEditForm.css */
+
+.category-edit-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .category-edit-form div {
+    margin-bottom: 15px;
+  }
+  
+  .category-edit-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .category-edit-form input,
+  .category-edit-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .category-edit-form button {
+    margin-right: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .category-edit-form button:hover {
+    background-color: #2980b9;
+  }
+  
+  .category-edit-form button[type="button"] {
+    background-color: #e74c3c;
+  }
+  
+  .category-edit-form button[type="button"]:hover {
+    background-color: #c0392b;
+  }
+  

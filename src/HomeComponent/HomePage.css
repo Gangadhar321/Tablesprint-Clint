@@ -1,0 +1,78 @@
+/* src/components/HomePage/HomePage.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .homepage-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Ensure the top bar is above other content */
+  }
+  
+  .top-bar-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Adjust this value as needed */
+    margin: 0 auto;
+  }
+  
+  .top-bar h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .logout-button {
+    background-color: #ff4d4d;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-button i {
+    margin-right: 8px;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 60px; /* Adjust according to the height of the top bar */
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    margin-top: 60px; /* Adjust according to the height of the top bar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content h2 {
+    margin: 0;
+    font-size: 28px;
+  }
+  

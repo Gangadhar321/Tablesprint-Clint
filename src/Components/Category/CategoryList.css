@@ -1,0 +1,45 @@
+/* src/components/Category/CategoryList.css */
+
+.category-list {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .category-list h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .category-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .category-list li button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.875rem;
+  }
+  
+  .category-list li button:hover {
+    background-color: #c0392b;
+  }
+  
